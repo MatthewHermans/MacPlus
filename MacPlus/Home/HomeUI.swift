@@ -17,6 +17,6 @@ enum HomeUI {
     
     enum Labels {
         static let sortDownloads = "Sort Downloads"
-        static let sortDownloadsExplanation = "This organises your download folder and puts your files in subfolders that fits with what the file is."
+        static let sortDownloadsExplanation = "This feature organizes your downloads folder by sorting your files into appropriate folders on your desktop based on their types."
     }
 }

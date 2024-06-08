@@ -17,6 +17,8 @@ struct HomeView: View {
                 .toggleStyle(.switch)
             
             Spacer()
+            
+            Text("More features coming soon")
         }
         .padding()
     }
