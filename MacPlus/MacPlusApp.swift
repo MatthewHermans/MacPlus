@@ -9,9 +9,18 @@ import SwiftUI
 
 @main
 struct MacPlusApp: App {
+    @ObservedObject var viewModel: GlobalViewModel = GlobalViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView(global: viewModel)
         }
+        
+        MenuBarExtra {
+            MenuBarView(global: viewModel)
+        } label: {
+            Image("menuBarIcon")
+        }
+        .menuBarExtraStyle(.window)
     }
 }

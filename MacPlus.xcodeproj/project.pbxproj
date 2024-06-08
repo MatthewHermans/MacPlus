@@ -8,22 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		EE6D3BE32C11C8E70077F7A0 /* MacPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BE22C11C8E70077F7A0 /* MacPlusApp.swift */; };
-		EE6D3BE52C11C8E70077F7A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BE42C11C8E70077F7A0 /* ContentView.swift */; };
 		EE6D3BE72C11C8E80077F7A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D3BE62C11C8E80077F7A0 /* Assets.xcassets */; };
 		EE6D3BEA2C11C8E80077F7A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE6D3BE92C11C8E80077F7A0 /* Preview Assets.xcassets */; };
+		EE6D3BF52C11C9000077F7A0 /* HomeUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BF12C11C9000077F7A0 /* HomeUI.swift */; };
+		EE6D3BF62C11C9000077F7A0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BF22C11C9000077F7A0 /* HomeView.swift */; };
+		EE6D3BF72C11C9000077F7A0 /* GlobalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BF32C11C9000077F7A0 /* GlobalViewModel.swift */; };
+		EE6D3BF92C11C9080077F7A0 /* FolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BF82C11C9080077F7A0 /* FolderMonitor.swift */; };
+		EE6D3BFB2C11C9100077F7A0 /* AlertContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3BFA2C11C9100077F7A0 /* AlertContext.swift */; };
+		EE6D3C1A2C11D30D0077F7A0 /* FolderMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3C192C11D30D0077F7A0 /* FolderMonitorTests.swift */; };
+		EE6D3C1D2C11D98D0077F7A0 /* FileManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3C1C2C11D98D0077F7A0 /* FileManagerMock.swift */; };
+		EE6D3C282C12BFDB0077F7A0 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6D3C272C12BFDB0077F7A0 /* MenuBarView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE6D3C072C11CBD90077F7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6D3BD72C11C8E70077F7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6D3BDE2C11C8E70077F7A0;
+			remoteInfo = MacPlus;
+		};
+		EE6D3C142C11CC030077F7A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE6D3BD72C11C8E70077F7A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6D3BDE2C11C8E70077F7A0;
+			remoteInfo = MacPlus;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		EE6D3BDF2C11C8E70077F7A0 /* MacPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE6D3BE22C11C8E70077F7A0 /* MacPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacPlusApp.swift; sourceTree = "<group>"; };
-		EE6D3BE42C11C8E70077F7A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE6D3BE62C11C8E80077F7A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE6D3BE92C11C8E80077F7A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE6D3BEB2C11C8E80077F7A0 /* MacPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacPlus.entitlements; sourceTree = "<group>"; };
+		EE6D3BF12C11C9000077F7A0 /* HomeUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeUI.swift; sourceTree = "<group>"; };
+		EE6D3BF22C11C9000077F7A0 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE6D3BF32C11C9000077F7A0 /* GlobalViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalViewModel.swift; sourceTree = "<group>"; };
+		EE6D3BF82C11C9080077F7A0 /* FolderMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderMonitor.swift; sourceTree = "<group>"; };
+		EE6D3BFA2C11C9100077F7A0 /* AlertContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertContext.swift; sourceTree = "<group>"; };
+		EE6D3C032C11CBD90077F7A0 /* MacPlusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacPlusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6D3C102C11CC030077F7A0 /* MacPlusTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacPlusTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE6D3C192C11D30D0077F7A0 /* FolderMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderMonitorTests.swift; sourceTree = "<group>"; };
+		EE6D3C1C2C11D98D0077F7A0 /* FileManagerMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerMock.swift; sourceTree = "<group>"; };
+		EE6D3C272C12BFDB0077F7A0 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EE6D3BDC2C11C8E70077F7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3C002C11CBD90077F7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3C0D2C11CC030077F7A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				EE6D3BE12C11C8E70077F7A0 /* MacPlus */,
+				EE6D3C112C11CC030077F7A0 /* MacPlusTest */,
 				EE6D3BE02C11C8E70077F7A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +93,8 @@
 			isa = PBXGroup;
 			children = (
 				EE6D3BDF2C11C8E70077F7A0 /* MacPlus.app */,
+				EE6D3C032C11CBD90077F7A0 /* MacPlusTests.xctest */,
+				EE6D3C102C11CC030077F7A0 /* MacPlusTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +102,11 @@
 		EE6D3BE12C11C8E70077F7A0 /* MacPlus */ = {
 			isa = PBXGroup;
 			children = (
+				EE6D3C222C124FA10077F7A0 /* ApplicationMenu */,
 				EE6D3BE22C11C8E70077F7A0 /* MacPlusApp.swift */,
-				EE6D3BE42C11C8E70077F7A0 /* ContentView.swift */,
+				EE6D3BF82C11C9080077F7A0 /* FolderMonitor.swift */,
+				EE6D3BFA2C11C9100077F7A0 /* AlertContext.swift */,
+				EE6D3BF42C11C9000077F7A0 /* Home */,
 				EE6D3BE62C11C8E80077F7A0 /* Assets.xcassets */,
 				EE6D3BEB2C11C8E80077F7A0 /* MacPlus.entitlements */,
 				EE6D3BE82C11C8E80077F7A0 /* Preview Content */,
@@ -67,6 +120,41 @@
 				EE6D3BE92C11C8E80077F7A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE6D3BF42C11C9000077F7A0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D3BF12C11C9000077F7A0 /* HomeUI.swift */,
+				EE6D3BF22C11C9000077F7A0 /* HomeView.swift */,
+				EE6D3BF32C11C9000077F7A0 /* GlobalViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE6D3C112C11CC030077F7A0 /* MacPlusTest */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D3C1B2C11D97F0077F7A0 /* Helpers */,
+				EE6D3C192C11D30D0077F7A0 /* FolderMonitorTests.swift */,
+			);
+			path = MacPlusTest;
+			sourceTree = "<group>";
+		};
+		EE6D3C1B2C11D97F0077F7A0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D3C1C2C11D98D0077F7A0 /* FileManagerMock.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		EE6D3C222C124FA10077F7A0 /* ApplicationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE6D3C272C12BFDB0077F7A0 /* MenuBarView.swift */,
+			);
+			path = ApplicationMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +177,42 @@
 			productReference = EE6D3BDF2C11C8E70077F7A0 /* MacPlus.app */;
 			productType = "com.apple.product-type.application";
 		};
+		EE6D3C022C11CBD90077F7A0 /* MacPlusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6D3C092C11CBD90077F7A0 /* Build configuration list for PBXNativeTarget "MacPlusTests" */;
+			buildPhases = (
+				EE6D3BFF2C11CBD90077F7A0 /* Sources */,
+				EE6D3C002C11CBD90077F7A0 /* Frameworks */,
+				EE6D3C012C11CBD90077F7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6D3C082C11CBD90077F7A0 /* PBXTargetDependency */,
+			);
+			name = MacPlusTests;
+			productName = MacPlusTests;
+			productReference = EE6D3C032C11CBD90077F7A0 /* MacPlusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE6D3C0F2C11CC030077F7A0 /* MacPlusTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6D3C162C11CC030077F7A0 /* Build configuration list for PBXNativeTarget "MacPlusTest" */;
+			buildPhases = (
+				EE6D3C0C2C11CC030077F7A0 /* Sources */,
+				EE6D3C0D2C11CC030077F7A0 /* Frameworks */,
+				EE6D3C0E2C11CC030077F7A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE6D3C152C11CC030077F7A0 /* PBXTargetDependency */,
+			);
+			name = MacPlusTest;
+			productName = MacPlusTest;
+			productReference = EE6D3C102C11CC030077F7A0 /* MacPlusTest.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +225,14 @@
 				TargetAttributes = {
 					EE6D3BDE2C11C8E70077F7A0 = {
 						CreatedOnToolsVersion = 15.3;
+					};
+					EE6D3C022C11CBD90077F7A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EE6D3BDE2C11C8E70077F7A0;
+					};
+					EE6D3C0F2C11CC030077F7A0 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = EE6D3BDE2C11C8E70077F7A0;
 					};
 				};
 			};
@@ -118,6 +250,8 @@
 			projectRoot = "";
 			targets = (
 				EE6D3BDE2C11C8E70077F7A0 /* MacPlus */,
+				EE6D3C022C11CBD90077F7A0 /* MacPlusTests */,
+				EE6D3C0F2C11CC030077F7A0 /* MacPlusTest */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +266,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE6D3C012C11CBD90077F7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3C0E2C11CC030077F7A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -139,12 +287,46 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6D3BE52C11C8E70077F7A0 /* ContentView.swift in Sources */,
+				EE6D3BF62C11C9000077F7A0 /* HomeView.swift in Sources */,
+				EE6D3C282C12BFDB0077F7A0 /* MenuBarView.swift in Sources */,
+				EE6D3BF92C11C9080077F7A0 /* FolderMonitor.swift in Sources */,
+				EE6D3BFB2C11C9100077F7A0 /* AlertContext.swift in Sources */,
+				EE6D3BF52C11C9000077F7A0 /* HomeUI.swift in Sources */,
 				EE6D3BE32C11C8E70077F7A0 /* MacPlusApp.swift in Sources */,
+				EE6D3BF72C11C9000077F7A0 /* GlobalViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3BFF2C11CBD90077F7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE6D3C0C2C11CC030077F7A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6D3C1A2C11D30D0077F7A0 /* FolderMonitorTests.swift in Sources */,
+				EE6D3C1D2C11D98D0077F7A0 /* FileManagerMock.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE6D3C082C11CBD90077F7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6D3BDE2C11C8E70077F7A0 /* MacPlus */;
+			targetProxy = EE6D3C072C11CBD90077F7A0 /* PBXContainerItemProxy */;
+		};
+		EE6D3C152C11CC030077F7A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE6D3BDE2C11C8E70077F7A0 /* MacPlus */;
+			targetProxy = EE6D3C142C11CC030077F7A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		EE6D3BEC2C11C8E80077F7A0 /* Debug */ = {
@@ -319,6 +501,74 @@
 			};
 			name = Release;
 		};
+		EE6D3C0A2C11CBD90077F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGPD9WY5RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.MIT.io.MacPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacPlus";
+			};
+			name = Debug;
+		};
+		EE6D3C0B2C11CBD90077F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGPD9WY5RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.MIT.io.MacPlusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacPlus";
+			};
+			name = Release;
+		};
+		EE6D3C172C11CC030077F7A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGPD9WY5RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.MIT.io.MacPlusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacPlus";
+			};
+			name = Debug;
+		};
+		EE6D3C182C11CC030077F7A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AGPD9WY5RU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.MIT.io.MacPlusTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacPlus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacPlus";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +586,24 @@
 			buildConfigurations = (
 				EE6D3BEF2C11C8E80077F7A0 /* Debug */,
 				EE6D3BF02C11C8E80077F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6D3C092C11CBD90077F7A0 /* Build configuration list for PBXNativeTarget "MacPlusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D3C0A2C11CBD90077F7A0 /* Debug */,
+				EE6D3C0B2C11CBD90077F7A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6D3C162C11CC030077F7A0 /* Build configuration list for PBXNativeTarget "MacPlusTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE6D3C172C11CC030077F7A0 /* Debug */,
+				EE6D3C182C11CC030077F7A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
